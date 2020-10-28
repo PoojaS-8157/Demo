@@ -1,0 +1,11 @@
+.hero-wrapper {
+    display: flex;
+    justify-content: center;
+    width: 150%;
+    position: relative;
+    margin-top: -250px;
+    img {
+        width: 100%;
+        margin-left: -150px;
+    }
+}

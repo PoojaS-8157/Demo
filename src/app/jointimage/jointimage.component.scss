@@ -1,0 +1,11 @@
+.joint-dam {
+    width: 100vw;
+    height: 200px;
+}
+.shape {
+    border-top: 50px solid white;
+    border-right: 100vw solid transparent;
+    height: 0;
+    width: 1px;
+    position: absolute;
+}

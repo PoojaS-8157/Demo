@@ -1,0 +1,102 @@
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 0 5%;
+}
+.card {
+    height: auto;
+    display: flex;
+    width: 45%;
+    height: 223px;
+    background-color: #FFFFFF;
+    margin-top: 10px;
+    box-shadow: 5px 10px 18px #888888;
+}
+.card-heading {
+    width: 50%;
+    padding: 12%;
+    margin-top: -25px;
+}
+.card-image {
+    width: 50%;
+}
+.tenders-main {
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    opacity: 0.1019607843;
+    color: #706960;
+    font-family: Poppins-Bold;
+    font-size: 65px;
+    //    opacity: 0.2;
+    height: 100%;
+    display: flex;
+}
+.tenders-sub {
+    opacity: 1;
+    color: #706960;
+    font-family: Poppins-Bold;
+    font-size: 36px;
+    text-align: center;
+    top: 0;
+    margin-top: -180px;
+    height: 100%;
+    width: 100%;
+    /* display: flex; */
+    // position: fixed;
+}
+.tenders-constrution-Img {
+    height: 100%;
+    width: 100%;
+}
+.terder-img1 {
+    // margin-left: 15%;
+}
+.terder-img2 {
+    // margin-right: 10%;
+}
+.terder-img3 {
+    // margin-left: 15%;
+    margin-top: 2%;
+}
+.terder-img4 {
+    // margin-right: 10%;
+    margin-top: 2%;
+}
+.tender-view-ALI {
+    opacity: 1;
+    background-color: #F2E162;
+    padding: 10px;
+    border: none;
+    color: #272727;
+    border-radius: 15px;
+    font-family: SFCompactDisplay-Regular;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+.tender-btn {
+    display: flex;
+    justify-content: center;
+}
+.about-Know-More {
+    opacity: 1;
+    background-color: #F2E162;
+    border: none;
+    padding: 12px;
+    color: #272727;
+    border-radius: 15px;
+    font-family: SFCompactDisplay-Regular;
+    font-size: 16px;
+    text-align: center;
+}
+.about-btn {
+    display: flex;
+    justify-content: center;
+}
+.tender-margin {
+    margin: 20px 0;
+}
+@media only screen and(min-width:600px) {}
