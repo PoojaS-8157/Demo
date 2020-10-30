@@ -3,6 +3,15 @@
     align-items: center;
 }
 
+@media only screen and (min-width:600px){
+    .latest-news-wrapper{
+        margin-top: 20px;
+        display: flex;
+        text-align: center;
+        overscroll-behavior-x: auto;
+    }
+}
+
 .heading-container {
     position: relative;
     display: block;
